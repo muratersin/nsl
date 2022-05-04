@@ -1,0 +1,19 @@
+{
+  "name": "nsl",
+  "version": "0.0.1",
+  "description": "NSL: Never Stop Learning. A software principles playground and description repository for  to be a better developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratersin/nsl.git"
+  },
+  "author": "Murat Ersin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratersin/nsl/issues"
+  },
+  "homepage": "https://github.com/muratersin/nsl#readme"
+}
