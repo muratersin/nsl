@@ -4,7 +4,8 @@
   "description": "NSL: Never Stop Learning. A software principles playground and description repository for  to be a better developer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/muratersin/nsl/issues"
   },
-  "homepage": "https://github.com/muratersin/nsl#readme"
+  "homepage": "https://github.com/muratersin/nsl#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
