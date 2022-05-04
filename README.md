@@ -12,3 +12,10 @@ That is absolutyle a joke, everyone can wrire also good code but it's required m
 - Code Smell
 - SOLID Principles
 - Refactoring
+- Funtional Programming
+- Object Oriented Programming
+
+## Resources
+
+- [Refactoring Guru](https://refactoring.guru/)
+- [Wikipedia](https://en.wikipedia.org)
