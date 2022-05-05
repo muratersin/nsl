@@ -19,3 +19,4 @@ That is absolutyle a joke, everyone can wrire also good code but it's required m
 
 - [Refactoring Guru](https://refactoring.guru/)
 - [Wikipedia](https://en.wikipedia.org)
+- [tutorialspoint](https://www.tutorialspoint.com)
