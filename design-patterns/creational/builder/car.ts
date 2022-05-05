@@ -125,7 +125,7 @@ class Director {
   }
 }
 
-function main() {
+function carDemoApp() {
   const director = new Director()
 
   const carBuilder = new CarBuilder()
@@ -141,4 +141,4 @@ function main() {
   console.log(`Car Manual: Seats: ${sportCardManuel.seatManual} - Engine: ${sportCardManuel.engineManual}.`)
 }
 
-main()
+carDemoApp()
