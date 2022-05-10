@@ -9,7 +9,7 @@
    * The Singleton's constructor should always be private to prevent direct
    * construction calls with the `new` operator.
    */
-  private constructor() { }
+  private constructor() { /* TODO document why this constructor is empty */  }
 
   /**
    * The static method that controls the access to the singleton instance.
