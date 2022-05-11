@@ -126,7 +126,7 @@ class ModernTable implements Table {
 * types: AbstractFurnitureFactory and AbstractProduct. This lets you pass any factory or
 * product subclass to the client code without breaking it.
 */
-function clientCode(factory: AbstractFurnitureFactory) {
+function abstractFactoryDemo(factory: AbstractFurnitureFactory) {
   const productA = factory.createChair();
   const productB = factory.createTable();
 
@@ -138,9 +138,9 @@ function clientCode(factory: AbstractFurnitureFactory) {
 * The client code can work with any concrete factory class.
 */
 console.log('Client: Testing client code with the first factory type...');
-clientCode(new VictorianFurnitureFactory());
+abstractFactoryDemo(new VictorianFurnitureFactory());
 
 console.log('');
 
 console.log('Client: Testing the same client code with the second factory type...');
-clientCode(new ModernFurnitureFactory());
+abstractFactoryDemo(new ModernFurnitureFactory());

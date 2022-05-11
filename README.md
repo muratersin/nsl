@@ -13,7 +13,10 @@ That is absolutyle a joke, everyone can wrire also good code but it's required m
 - SOLID Principles
 - Refactoring
 - Funtional Programming
-- Object Oriented Programming
+- BDD (Behavior Driven Development)
+- Data Structures
+- Multi threat and multi proccess
+-
 
 ## Resources
 

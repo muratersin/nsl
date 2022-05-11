@@ -37,7 +37,7 @@
 /**
 * The client code.
 */
-function clientCode() {
+function singletonDemo() {
   const s1 = Singleton.getInstance();
   const s2 = Singleton.getInstance();
 
@@ -48,4 +48,4 @@ function clientCode() {
   }
 }
 
-clientCode();
+singletonDemo();

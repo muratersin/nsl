@@ -35,7 +35,7 @@ class ComponentWithBackReference {
 /**
  * The client code.
  */
- function clientCode() {
+ function prototypeDemo() {
   const p1 = new Prototype();
   p1.primitive = 245;
   p1.component = new Date();
@@ -66,4 +66,4 @@ class ComponentWithBackReference {
   }
 }
 
-clientCode();
+prototypeDemo();
