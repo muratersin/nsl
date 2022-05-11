@@ -68,7 +68,7 @@ class Input extends FormElement {
  * objects, reused by all Concrete Composites.
  */
 class FieldComposite extends FormElement {
-    protected _fields: FormElement[];
+    protected _fields: FormElement[] = [];
 
      /**
      * The methods for adding/removing sub-objects.
@@ -120,7 +120,7 @@ class FieldComposite extends FormElement {
       let result = '';
 
       this._fields.forEach((field: FormElement) => {
-        result = result + field.getData();
+        result = result + field.render();
       });
 
       return result;
@@ -187,8 +187,11 @@ function formDemo() {
   const form = getProductForm();
   loadProductData(form);
 
-  form.render();
+  const res = form.render();
+
+  console.log(res)
 }
+formDemo()
 
 
 
